@@ -46,37 +46,15 @@ Having the user in mind, I decided to create the website with a dark - light mod
  
 ### Info section
  
- - Meditation section explains the 3 main meditation techniques that can be used for stress relief and better sleep. 
+ - The Info section will explain the user how each widget is working. 
  
-![Meditation section](https://github.com/adrian-cucuet/project1/blob/main/assets/images/meditation-section.png)
+![Info section](https://github.com/adrian-cucuet/project1/blob/main/assets/images/meditation-section.png)
  
-### The Footer
+### Dark/Light Mode
  
- - The footer section includes links to the relevant social media sites for Mind & Soul. The links will open to a new tab to allow easy navigation for the user.
- - The footer is valuable to the user as it encourages them to keep connected via social media or by signing up for a newsletter.
+ - The toggle for Dark/Light Mode is available on both desktop and mobile navigation bars. It allows the user to toggle between a dark or light theme.
  
-![Footer](https://github.com/adrian-cucuet/project1/blob/main/assets/images/footer-full.png)
- 
-### Meditation pages
- 
- - There are 3 meditation pages, using the same structure:
-
-![Meditation Page Structure](https://github.com/adrian-cucuet/project1/blob/main/assets/images/meditation-example.gif)
-
- - Each meditation page consists of vital information on how the body and life are affected by stress and anxiety, as well as tips on how to handle daily stress and relax.
- - Each page is offering information on how to start meditation and 3 guided meditation videos.
-
-### Thank you page
-
- - After pressing the submit button for the newsletter form, the user is redirected to a Thank you page. The page contains a thank you message and a button to go back to the home page.
-
-![Thank You Page](https://github.com/adrian-cucuet/project1/blob/main/assets/images/thank-screen-shot.png) 
-
-### 404 page
-
- - In case the requested page is not available, a 404 page will appear and redirect the user towards the Home page. The page contains an error message and a button to go back to the home page.
-
-![404 Page](https://github.com/adrian-cucuet/project1/blob/main/assets/images/404-screen-shot.png) 
+![Dark/Light Mode](https://github.com/adrian-cucuet/project1/blob/main/assets/images/footer-full.png)
 
 [Back to top &uarr;](#table-of-contents)
 
@@ -84,6 +62,7 @@ Having the user in mind, I decided to create the website with a dark - light mod
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JS](https://www.javascript.com/)
 
 [Back to top &uarr;](#table-of-contents)
 
@@ -93,19 +72,17 @@ Having the user in mind, I decided to create the website with a dark - light mod
 
 As a first-time user:
 
-- I want to understand what meditation is.
-- I want to know what are the benefits of meditation.
-- I want to find specific meditations for my problems.
-- I want to learn how to meditate.
+- I want to have an easy way to control my budget and keep track of my balance.
+- I want to have a To Do list from where to control what tasks to focus on and delete the tasks I've done.
 
 As a returning user:
 
-- I want to use meditation techniques.
-- I want to connect with other people facing the same problems. (Social Media Links)
+- I want to have easy access to both of them from a mobile phone and control my budget and tasks from anywhere.
+- I want to keep a daily to do list with things I need to focus on and check them throughout the day.
 
 ### Wireframes
  
-For the wireframes, I used [Balsamiq](https://balsamiq.com/). From left to right we have Home Page Desktop and Meditation Desktop Page, Home Page Tablet and Meditation Tablet Page, and Home Page Mobile and Meditation Mobile Page.
+For the wireframes, I used [Figma](https://www.figma.com/). From left to right we have Side Bar Closed and Expanded; Budget Section Desktop Page; To Do Section Desktop Page; Budget Section Mobile Page; To Do Section Mobile Page.
 
 ![Wifeframes](https://github.com/adrian-cucuet/project1/blob/main/assets/images/wireframes.png)
 
@@ -117,8 +94,9 @@ For the color scheme, I picked simple colors, using the 60-30-10 rule. The color
 
 ### Features Left to Implement
  
-- Another feature idea would be to create a Retreats page where the users can organize retreat events and register to participate.
-- Implementing animation using JavaScript for the illustration and the mobile navbar.
+- A user register/login feature.
+- Implementing a storage system for the data to be stored and pulled after login.
+- Adding a calendar for the To Do to pick dates for task (Bill payments, deadlines, etc).
 
 [Back to top &uarr;](#table-of-contents)
  
