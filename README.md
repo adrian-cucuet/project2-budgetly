@@ -5,9 +5,9 @@ The To Do widget allows the user to create a list of tasks to follow, and check 
  
 Having the user in mind, I decided to create the website with a dark - light mode. This way the user can work in an environment that is more relaxing for the eyes.
  
-![Responsive Mockup](https://github.com/adrian-cucuet/project1/blob/main/assets/images/all-devices-black.png)
+![Responsive Mockup](https://github.com/adrian-cucuet/project2-budgetly/main/assets/images/Colors.png)
 
-[Mind & Soul - Live Webpage](https://adrian-cucuet.github.io/project1/index.html)
+[Budgetly - Live Webpage](https://adrian-cucuet.github.io/project2-budgetly/)
 
 # Table of Contents
 
@@ -25,9 +25,9 @@ Having the user in mind, I decided to create the website with a dark - light mod
  - Featured on all pages, the full responsive expandable navigation side bar includes links to the Budget, To Do List, Info Section, and toggle for dark/light mode. It is identical on each page to allow the user easy access to all sections.
  - On small screens, the navigation is shown at the bottom of the screen. The decision was based on the latest UX research where the users prefer using the thumb for navigation on smartphones.
  
-![Nav Bar](https://github.com/adrian-cucuet/project1/blob/main/assets/images/navbar-full.png)
+![Side Bar Nav](https://github.com/adrian-cucuet/project2-budgetly/main/assets/images/sidebar-nav.png)
  
-![Mobile Nav Bar](https://github.com/adrian-cucuet/project1/blob/main/assets/images/mobile-nav-bttm.png)
+![Mobile Nav Bar](https://github.com/adrian-cucuet/project2-budgetly/main/assets/images/mobile-nav.png)
  
 ### Budget Widget
  
@@ -36,25 +36,23 @@ Having the user in mind, I decided to create the website with a dark - light mod
  - The Expenses Enter Section allows the user to input the expenses name and amount. Everytime a new expense is entered, an entry is created in the Latest Expenses section.
  - The Latest Expenses section conatains all the expenses submitted by the user and each item has two buttons: Edit and Delete. The Edit button sends the name and amount back to the Expenses Enter Section to be edited and re-submited. The Delete button will remove that specific item from the list. Both actions will recalculate the total expenses and balance amounts.
  
-![Budget Section](https://github.com/adrian-cucuet/project1/blob/main/assets/images/hero-home.png)
+![Budget Section Desktop](https://github.com/adrian-cucuet/project2-budgetly/main/assets/images/budget-desktop.png)
+![Budget Section Mobile](https://github.com/adrian-cucuet/project2-budgetly/main/assets/images/budget-mobile.png)
  
 ### To Do Widget
  
  - The To Do section allows the user to create a list of tasks to follow throughout the day, week or month. Every task has two buttons: one for Done and one for Delete. The Done button checkes the task and it gets cut from the list to allow the user to focus only on the remaining tasks. The Delete button will delete the task from the list.
  
-![To Do Section](https://github.com/adrian-cucuet/project1/blob/main/assets/images/benefits-section.png)
+![ToDo Section Desktop](https://github.com/adrian-cucuet/project2-budgetly/main/assets/images/todo-desktop.png)
+![Todo Section Mobile](https://github.com/adrian-cucuet/project2-budgetly/main/assets/images/todo-mobile.png)
  
 ### Info section
  
  - The Info section will explain the user how each widget is working. 
  
-![Info section](https://github.com/adrian-cucuet/project1/blob/main/assets/images/meditation-section.png)
- 
 ### Dark/Light Mode
  
  - The toggle for Dark/Light Mode is available on both desktop and mobile navigation bars. It allows the user to toggle between a dark or light theme.
- 
-![Dark/Light Mode](https://github.com/adrian-cucuet/project1/blob/main/assets/images/footer-full.png)
 
 [Back to top &uarr;](#table-of-contents)
 
@@ -84,15 +82,15 @@ As a returning user:
  
 For the wireframes, I used [Figma](https://www.figma.com/). For the mobile I decided to use flex display and no wireframes were needed.
 
-[Side Bar Navigation](https://github.com/adrian-cucuet/project2-budgetly/assets/images/Desktop-Sidebar-Expanded.png)
-[Budget Section Desktop](https://github.com/adrian-cucuet/project2-budgetly/assets/images/Desktop-BudgetCalculatorPage.png)
-[To Do Section Desktop](https://github.com/adrian-cucuet/project2-budgetly/assets/images/Desktop-ToDoList.png)
+[Side Bar Navigation](https://github.com/adrian-cucuet/project2-budgetly/main/assets/images/Desktop-Sidebar-Expanded.png)
+[Budget Section Desktop](https://github.com/adrian-cucuet/project2-budgetly/main/assets/images/Desktop-BudgetCalculatorPage.png)
+[To Do Section Desktop](https://github.com/adrian-cucuet/project2-budgetly/main/assets/images/Desktop-ToDoList.png)
 
 ### Color Scheme
 
 For the color scheme, I picked simple colors, using the 60-30-10 rule. The colors are consistent throughout the website, creating a relaxed environment for the user.
 
-![To Do Section Desktop](https://github.com/adrian-cucuet/project2-budgetly/assets/images/Colors.png)
+![Color Scheme](https://github.com/adrian-cucuet/project2-budgetly/main/assets/images/Colors.png)
 
 ### Features Left to Implement
  
@@ -110,14 +108,17 @@ The mobile responsiveness testing has been done using iOS, and Android. The webs
  
 ### Validator Testing
  
-- HTML: No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fadrian-cucuet.github.io%2Fproject1%2Findex.html)
-- CSS: No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fadrian-cucuet.github.io%2Fproject1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- HTML: No errors were returned when passing through the official [W3C validator](https://github.com/adrian-cucuet/project2-budgetly/main/assets/images/Colors.png)
+- CSS: No errors were found when passing through the official [(Jigsaw) validator](https://github.com/adrian-cucuet/project2-budgetly/main/assets/images/Colors.png)
  
 - The results for the Lighthouse are all above 90:
- ![Lighthouse Score](https://github.com/adrian-cucuet/project1/blob/main/assets/images/lighthouse-perfm.png)
+ ![Lighthouse Score](https://github.com/adrian-cucuet/project2-budgetly/main/assets/images/Colors.png)
  
 ### Unfixed Bugs
- 
+
+- The Budget section is not centered properly after returning from other sections. I have tried to find a fix but couldn't find one in time for project submission.
+- The Dark mode on refresh goes back to light mode. I am looking for a solution in javascript.
+- On refresh the data is lost. One solution would be local storage but that is limited. Another one would be to link the data to a database.
 
 
 [Back to top &uarr;](#table-of-contents)
@@ -129,24 +130,23 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - From the source section drop-down menu, select the Master Branch
 - Once the master branch has been selected, the page will be automatically refreshed with a       detailed ribbon display to indicate the successful deployment.
  
-The live link can be found here - [Budgetly]()
+The live link can be found here - [Budgetly](https://adrian-cucuet.github.io/project2-budgetly/)
  
 [Back to top &uarr;](#table-of-contents)
 
 ## Credits
  
-- The text for the Home page and all the Meditation pages was taken from [HSE](https://www.hse.ie/eng/)
-- The icons used for social media and benefits are from [FontAwesome](https://fontawesome.com/)
-- All the illustrations are from [Storyset](https://storyset.com/people)
-- The videos are taken from various [YouTube](https://www.youtube.com/) channels as embedded videos.
+- For the sidebar I followed a tutorial from www.codinglabweb.com
+- For the Budget javascript I followed a tutorial from www.codingartistweb.com
+- For the To Do javascript I followed a tutorial from www.developedbyed.com
 - [Favicon](https://favicon.io/favicon-generator/) was used for creating icons for the website.
  
 [Back to top &uarr;](#table-of-contents)
 
 ### Other General Project Advice
  
-- Whenever I encounter difficulties, I went and checked for solutions on [W3Schools](https://www.w3schools.com/).
+- Whenever I encounter difficulties, I went and checked for solutions on [W3Schools](https://www.w3schools.com/) and [Stackeflow](https://stackoverflow.com/)
 
-- To make the iframe responsive and keep the ratio I found a solution on [stackoverflow](https://stackoverflow.com/a/60166158/19997434)
+- The logo was created by [Kier De Dios](https://kierdedios.com/), as well as help for color scheme and UX.
 
 [Back to top &uarr;](#table-of-contents)

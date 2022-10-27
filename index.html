@@ -9,6 +9,12 @@
     <!-- Boxicons link for icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Budgetly - Your Personal Assistant</title>
+    <meta name="keywords" content="budget, todo, task, money, balance, keep track">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body>
@@ -93,7 +99,7 @@
                 <h1>Income</h1>
                 <p class="hide error" id="income-error">Please enter a value</p>
                 <input type="number" id="total-income" placeholder="Enter amount">
-                <button class="submit-income button" id="total-income-btn">Set Income</button>
+                <button class="submit-income button" id="total-income-btn" alt="Submit">Set Income</button>
             </div>
             <span class="separator"></span>
             <!-- Expenses Section -->
@@ -103,7 +109,7 @@
                 <input type="text" class="buy-title" id="buy-title" placeholder="Expense name">
                 <p class="hide error" id="expenses-amount-error">Please enter an amount</p>
                 <input type="number" id="buy-amount" placeholder="Amount spent">
-                <button class="submit-expenses" id="submit-amount-btn">Submit</button>
+                <button class="submit-expenses" id="submit-amount-btn" alt="Submit">Submit</button>
             </div>
         </div>
         <!-- Expenses List -->
@@ -121,8 +127,8 @@
             <h1>TO DO LIST</h1>
         </div>
         <form>
-            <input type="text" class="todo-input">
-            <button class="todo-btn" type="submit">
+            <input type="text" class="todo-input" name="your-task">
+            <button class="todo-btn" type="submit" alt="Submit">
                 <i class='bx bx-plus'></i>
             </button>
         </form>
