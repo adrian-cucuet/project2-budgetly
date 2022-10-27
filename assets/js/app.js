@@ -1,10 +1,10 @@
 // ===> SideBar Menu - Tutorial from www.codinglabweb.com 
 
-const body = document.querySelector("body"),
-    sidebar = body.querySelector(".sidebar"),
-    toggle = body.querySelector(".toggle"),
-    modeSwitch = body.querySelector(".toggle-switch"),
-    modeText = body.querySelector(".mode-text");
+const body = document.querySelector("body");
+const sidebar = body.querySelector(".sidebar");
+const toggle = body.querySelector(".toggle");
+const modeSwitch = body.querySelector(".toggle-switch");
+const modeText = body.querySelector(".mode-text");
 
 toggle.addEventListener("click", () => {
     sidebar.classList.toggle("close");
@@ -129,3 +129,60 @@ submitAmountBtn.addEventListener("click", () => {
     productTitle.value = "";
     userExpenses.value = "";
 });
+
+// ===> TO DO APP - followed a tutorial from https://developedbyed.com/
+
+// Selectors
+const todoInput = document.querySelector(".todo-input");
+const todoBtn = document.querySelector(".todo-btn");
+const todoList = document.querySelector(".todo-list");
+
+//EventListeners
+todoBtn.addEventListener("click", addTodo);
+todoList.addEventListener("click", deleteItem);
+
+// ===> Functions to add to do item
+function addTodo(event) {
+    event.preventDefault();
+
+    //Create div element
+    const todoDiv = document.createElement("div");
+    todoDiv.classList.add("todo");
+    //Create li element
+    const newTodo = document.createElement("li");
+    newTodo.innerText = todoInput.value;
+    newTodo.classList.add("todo-item");
+    todoDiv.appendChild(newTodo);
+    //Check Button
+    const completedBtn = document.createElement("button");
+    completedBtn.innerHTML = "<i class='bx bx-message-square-check' ></i>";
+    completedBtn.classList.add("completed-btn");
+    todoDiv.appendChild(completedBtn);
+    //Delete Button
+    const deletedBtn = document.createElement("button");
+    deletedBtn.innerHTML = "<i class='bx bx-message-square-x'></i>";
+    deletedBtn.classList.add("deleted-btn");
+    todoDiv.appendChild(deletedBtn);
+    //Append to ul list
+    todoList.appendChild(todoDiv);
+    //Clear input text
+    todoInput.value = "";
+};
+
+// ===> Function for complete and delete items from to do list
+function deleteItem(e) {
+    const item = e.target;
+    // Delete item from todo
+    if (item.classList[0] === "deleted-btn") {
+        const todo = item.parentElement;
+        todo.classList.add("moving");
+        todo.addEventListener("animationend", function () {
+            todo.remove();
+        });
+    }
+    // Stroke text and opacity for done item
+    if (item.classList[0] === "completed-btn") {
+        const todo = item.parentElement;
+        todo.classList.toggle("done");
+    }
+};

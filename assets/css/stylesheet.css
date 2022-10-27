@@ -566,3 +566,125 @@ body.dark .forms {
     flex: 1;
     padding: 0 3vh;
 }
+
+/* To Do Section */
+#todo-section,
+.sidebar.close~#todo-section {
+    position: absolute;
+    width: 100%;
+    top: 3000px;
+    left: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: var(--body-color);
+    transition: var(--tran-05);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+#todo-section .todo-header {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--text-color);
+    padding: 4vh;
+}
+
+body.dark #todo-section .todo-header {
+    color: var(--text-color);
+}
+
+#todo-section form {
+    min-height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#todo-section form input,
+#todo-section form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: var(--sidebar-color);
+}
+
+#todo-section form input {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+#todo-section form button {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#todo-section form button {
+    background: var(--sidebar-color);
+    color: var(--text-color);
+    cursor: pointer;
+    transition: var(--tran-03);
+}
+
+#todo-section form button:hover {
+    color: var(--sidebar-color);
+    background-color: var(--primary-color);
+}
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50vw;
+}
+
+.todo-list {
+    min-width: 80%;
+    list-style: none;
+}
+
+.todo {
+    margin: 0 0 1rem 0;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--sidebar-color);
+}
+
+.todo li {
+    flex: 1;
+    color: var(--text-color);
+}
+
+.completed-btn,
+.deleted-btn {
+    background-color: var(--sidebar-color);
+    color: var(--text-color);
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.deleted-btn {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.completed-btn:hover,
+.deleted-btn:hover {
+    background: var(--primary-color);
+    color: var(--sidebar-color);
+}
+
+.todo-item {
+    padding: 0 0.5rem;
+}
+
+.bx-message-square-x,
+.bx-message-square-check {
+    pointer-events: none;
+}
