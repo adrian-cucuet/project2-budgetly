@@ -82,7 +82,7 @@ As a returning user:
 
 ### Wireframes
  
-For the wireframes, I used [Figma](https://www.figma.com/). From left to right we have Side Bar Closed and Expanded; Budget Section Desktop Page; To Do Section Desktop Page; Budget Section Mobile Page; To Do Section Mobile Page.
+For the wireframes, I used [Figma](https://www.figma.com/). From left to right we have Side Bar Navigation; Budget Section Desktop; To Do Section Desktop; For the mobile I decided to use flex display and no wireframes were needed.
 
 ![Wifeframes](https://github.com/adrian-cucuet/project1/blob/main/assets/images/wireframes.png)
 

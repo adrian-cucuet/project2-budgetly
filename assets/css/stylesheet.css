@@ -1122,3 +1122,37 @@ body.dark #todo-section .todo-header {
     }
 
 }
+
+/* ANIMATION */
+
+.moving {
+    animation: moving-animation .8s;
+}
+
+@keyframes moving-animation {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    30% {
+        opacity: 1;
+        transform: translateX(50px);
+    }
+
+    80% {
+        opacity: 1;
+        transform: translateX(-800px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-800px);
+    }
+}
+
+.done {
+    text-decoration: line-through;
+    opacity: 0.5;
+    transition: var(--tran-03)
+}
