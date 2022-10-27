@@ -82,15 +82,17 @@ As a returning user:
 
 ### Wireframes
  
-For the wireframes, I used [Figma](https://www.figma.com/). From left to right we have Side Bar Navigation; Budget Section Desktop; To Do Section Desktop; For the mobile I decided to use flex display and no wireframes were needed.
+For the wireframes, I used [Figma](https://www.figma.com/). For the mobile I decided to use flex display and no wireframes were needed.
 
-![Wifeframes](https://github.com/adrian-cucuet/project1/blob/main/assets/images/wireframes.png)
+[Side Bar Navigation](https://github.com/adrian-cucuet/project2-budgetly/assets/images/Desktop-Sidebar-Expanded.png)
+[Budget Section Desktop](https://github.com/adrian-cucuet/project2-budgetly/assets/images/Desktop-BudgetCalculatorPage.png)
+[To Do Section Desktop](https://github.com/adrian-cucuet/project2-budgetly/assets/images/Desktop-ToDoList.png)
 
 ### Color Scheme
 
 For the color scheme, I picked simple colors, using the 60-30-10 rule. The colors are consistent throughout the website, creating a relaxed environment for the user.
 
-![Color Scheme](https://github.com/adrian-cucuet/project1/blob/main/assets/images/colors.png)
+![To Do Section Desktop](https://github.com/adrian-cucuet/project2-budgetly/assets/images/Colors.png)
 
 ### Features Left to Implement
  
@@ -105,9 +107,6 @@ For the color scheme, I picked simple colors, using the 60-30-10 rule. The color
 Testing has been done on different browsers (Chrome, Safari, Firefox) and the website was performing well on all three.
  
 The mobile responsiveness testing has been done using iOS, and Android. The website kept the same layout on all three with no issues.
-
-Due to the Favicon files uploaded, the website has a .webmanifest file that allows the mobile website to be saved on the home screen of the phone and acts like a progressive web app.
-
  
 ### Validator Testing
  
@@ -119,7 +118,7 @@ Due to the Favicon files uploaded, the website has a .webmanifest file that allo
  
 ### Unfixed Bugs
  
-Due to videos embedded in the Mediation pages, the page performance was low. I have tried to find solutions to increase the performance score. One of the solutions was to create a link for the videos and send the user on the YouTube website. As this would drive traffic away from this website I decided to wait until I find a javascript solution to fix the loading time for the pages.
+
 
 [Back to top &uarr;](#table-of-contents)
  
@@ -130,7 +129,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - From the source section drop-down menu, select the Master Branch
 - Once the master branch has been selected, the page will be automatically refreshed with a       detailed ribbon display to indicate the successful deployment.
  
-The live link can be found here - [Mind & Soul](https://adrian-cucuet.github.io/project1/index.html)
+The live link can be found here - [Budgetly]()
  
 [Back to top &uarr;](#table-of-contents)
 
