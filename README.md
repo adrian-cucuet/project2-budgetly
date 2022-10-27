@@ -36,15 +36,15 @@ Having the user in mind, I decided to create the website with a dark - light mod
  - The Expenses Enter Section allows the user to input the expenses name and amount. Everytime a new expense is entered, an entry is created in the Latest Expenses section.
  - The Latest Expenses section conatains all the expenses submitted by the user and each item has two buttons: Edit and Delete. The Edit button sends the name and amount back to the Expenses Enter Section to be edited and re-submited. The Delete button will remove that specific item from the list. Both actions will recalculate the total expenses and balance amounts.
  
-![Hero](https://github.com/adrian-cucuet/project1/blob/main/assets/images/hero-home.png)
+![Budget Section](https://github.com/adrian-cucuet/project1/blob/main/assets/images/hero-home.png)
  
-### To Do List
+### To Do Widget
  
- - The Benefits section will explain what are the benefits of meditation and how it can change your life.
+ - The To Do section allows the user to create a list of tasks to follow throughout the day, week or month. Every task has two buttons: one for Done and one for Delete. The Done button checkes the task and it gets cut from the list to allow the user to focus only on the remaining tasks. The Delete button will delete the task from the list.
  
-![Benefits](https://github.com/adrian-cucuet/project1/blob/main/assets/images/benefits-section.png)
+![To Do Section](https://github.com/adrian-cucuet/project1/blob/main/assets/images/benefits-section.png)
  
-### Meditation section
+### Info section
  
  - Meditation section explains the 3 main meditation techniques that can be used for stress relief and better sleep. 
  
