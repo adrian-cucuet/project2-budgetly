@@ -70,9 +70,49 @@
         </div>
     </nav>
 
-    <!-- Budget Calculator Section -->
+    <!-- Budget Section -->
     <section id="dashboard-section">
+        <h1>Budget Calculator</h1>
+        <div class="dash-cards">
+            <div class="income-total">
+                <h2>Income<span class="icons-totals"><i class='bx bx-left-down-arrow-circle'></i></span></h2>
+                <h1><span id="income-value">0</span> <i class='bx bx-euro'></i></h1>
+            </div>
+            <div class="expenses-total">
+                <h2>Expenses<span class="icons-totals"><i class='bx bx-right-top-arrow-circle'></i></span></h2>
+                <h1><span id="expenses-value">0</span> <i class='bx bx-euro'></i></h1>
+            </div>
+            <div class="balance">
+                <h2>Balance<span class="icons-totals"><i class='bx bx-wallet'></i></span></h2>
+                <h1><span id="balance-value">0</span> <i class='bx bx-euro'></i></h1>
+            </div>
+        </div>
+        <div class="forms">
+            <!-- Income Section -->
+            <div class="income-container">
+                <h1>Income</h1>
+                <p class="hide error" id="income-error">Please enter a value</p>
+                <input type="number" id="total-income" placeholder="Enter amount">
+                <button class="submit-income button" id="total-income-btn">Set Income</button>
+            </div>
+            <span class="separator"></span>
+            <!-- Expenses Section -->
+            <div class="expenses-container">
+                <h1>Expenses</h1>
+                <p class="hide error" id="expenses-title-error">Please enter a name</p>
+                <input type="text" class="buy-title" id="buy-title" placeholder="Expense name">
+                <p class="hide error" id="expenses-amount-error">Please enter an amount</p>
+                <input type="number" id="buy-amount" placeholder="Amount spent">
+                <button class="submit-expenses" id="submit-amount-btn">Submit</button>
+            </div>
+        </div>
+        <!-- Expenses List -->
+        <div id="list-dash">
+            <h3>Latest Expenses</h3>
+            <div class="expenses-list">
 
+            </div>
+        </div>
     </section>
 
     <!-- ToDo Section -->
