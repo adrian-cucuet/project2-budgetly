@@ -5,7 +5,7 @@ The To Do widget allows the user to create a list of tasks to follow, and check 
  
 Having the user in mind, I decided to create the website with a dark - light mode. This way the user can work in an environment that is more relaxing for the eyes.
  
-![Responsive Mockup](https://github.com/adrian-cucuet/project2-budgetly/assets/images/Colors.png)
+![Responsive Mockup](https://github.com/adrian-cucuet/project2-budgetly/assets/images/responsive.png)
 
 [Budgetly - Live Webpage](https://adrian-cucuet.github.io/project2-budgetly/)
 
@@ -25,9 +25,9 @@ Having the user in mind, I decided to create the website with a dark - light mod
  - Featured on all pages, the full responsive expandable navigation side bar includes links to the Budget, To Do List, Info Section, and toggle for dark/light mode. It is identical on each page to allow the user easy access to all sections.
  - On small screens, the navigation is shown at the bottom of the screen. The decision was based on the latest UX research where the users prefer using the thumb for navigation on smartphones.
  
-![Side Bar Nav](https://github.com/adrian-cucuet/project2-budgetly/assets/images/sidebar-nav.png)
+[Side Bar Nav](https://github.com/adrian-cucuet/project2-budgetly/assets/images/sidebar-nav.png)
  
-![Mobile Nav Bar](https://github.com/adrian-cucuet/project2-budgetly/assets/images/mobile-nav.png)
+[Mobile Nav Bar](https://github.com/adrian-cucuet/project2-budgetly/assets/images/mobile-nav.png)
  
 ### Budget Widget
  
@@ -36,15 +36,15 @@ Having the user in mind, I decided to create the website with a dark - light mod
  - The Expenses Enter Section allows the user to input the expenses name and amount. Everytime a new expense is entered, an entry is created in the Latest Expenses section.
  - The Latest Expenses section conatains all the expenses submitted by the user and each item has two buttons: Edit and Delete. The Edit button sends the name and amount back to the Expenses Enter Section to be edited and re-submited. The Delete button will remove that specific item from the list. Both actions will recalculate the total expenses and balance amounts.
  
-![Budget Section Desktop](https://github.com/adrian-cucuet/project2-budgetly/assets/images/budget-desktop.png)
-![Budget Section Mobile](https://github.com/adrian-cucuet/project2-budgetly/assets/images/budget-mobile.png)
+[Budget Section Desktop](https://github.com/adrian-cucuet/project2-budgetly/assets/images/budget-desktop.png)
+[Budget Section Mobile](https://github.com/adrian-cucuet/project2-budgetly/assets/images/budget-mobile.png)
  
 ### To Do Widget
  
  - The To Do section allows the user to create a list of tasks to follow throughout the day, week or month. Every task has two buttons: one for Done and one for Delete. The Done button checkes the task and it gets cut from the list to allow the user to focus only on the remaining tasks. The Delete button will delete the task from the list.
  
-![ToDo Section Desktop](https://github.com/adrian-cucuet/project2-budgetly/assets/images/todo-desktop.png)
-![Todo Section Mobile](https://github.com/adrian-cucuet/project2-budgetly/assets/images/todo-mobile.png)
+[ToDo Section Desktop](https://github.com/adrian-cucuet/project2-budgetly/assets/images/todo-desktop.png)
+[Todo Section Mobile](https://github.com/adrian-cucuet/project2-budgetly/assets/images/todo-mobile.png)
  
 ### Info section
  
@@ -90,7 +90,7 @@ For the wireframes, I used [Figma](https://www.figma.com/). For the mobile I dec
 
 For the color scheme, I picked simple colors, using the 60-30-10 rule. The colors are consistent throughout the website, creating a relaxed environment for the user.
 
-![Color Scheme](https://github.com/adrian-cucuet/project2-budgetly/assets/images/Colors.png)
+[Color Scheme](https://github.com/adrian-cucuet/project2-budgetly/assets/images/Colors.png)
 
 ### Features Left to Implement
  
