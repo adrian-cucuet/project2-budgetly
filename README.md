@@ -5,7 +5,7 @@ The To Do widget allows the user to create a list of tasks to follow, and check 
  
 Having the user in mind, I decided to create the website with a dark - light mode. This way the user can work in an environment that is more relaxing for the eyes.
  
-![Responsive Mockup](https://github.com/adrian-cucuet/project2-budgetly/assets/images/responsive.png)
+![Responsive Mockup](https://github.com/adrian-cucuet/project2-budgetly/blob/5db25a90e54005116aa5bd0eb8f4d7aaee51cc7f/assets/images/responsive.png)
 
 [Budgetly - Live Webpage](https://adrian-cucuet.github.io/project2-budgetly/)
 
