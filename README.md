@@ -113,9 +113,8 @@ The mobile responsiveness testing has been done using iOS, and Android. The webs
 - JS: No errors were found when passing through [Esprima](https://github.com/adrian-cucuet/project2-budgetly/blob/main/assets/images/JS.png)
  
 - The results for the Lighthouse are:
- [Lighthouse Score](https://github.com/adrian-cucuet/project2-budgetly/blob/main/assets/images/lighthouse.png)
- - For the score at accessibility are things I couldn't change as they are a paramount part of the code:
- [Lighthouse 1](https://github.com/adrian-cucuet/project2-budgetly/blob/main/blob/main/assets/images/accessibility1.png) [Lighthouse 2](https://github.com/adrian-cucuet/project2-budgetly/blob/main/assets/images/accessibility2.png)
+ [Lighthouse Score](https://github.com/adrian-cucuet/project2-budgetly/blob/main/assets/images/scorel.png)
+ - For the score at accessibility are things I couldn't change as they are a paramount part of the code.
  
 ### Unfixed Bugs
 

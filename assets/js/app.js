@@ -172,7 +172,7 @@ submitAmountBtn.addEventListener("click", () => {
 
 // Selectors
 const todoInput = document.querySelector(".todo-input");
-const todoBtn = document.querySelector(".todo-btn");
+const todoBtn = document.querySelector(".add-todo");
 const todoList = document.querySelector(".todo-list");
 
 //EventListeners
