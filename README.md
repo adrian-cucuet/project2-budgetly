@@ -25,9 +25,9 @@ Having the user in mind, I decided to create the website with a dark - light mod
  - Featured on all pages, the full responsive expandable navigation side bar includes links to the Budget, To Do List, Info Section, and toggle for dark/light mode. It is identical on each page to allow the user easy access to all sections.
  - On small screens, the navigation is shown at the bottom of the screen. The decision was based on the latest UX research where the users prefer using the thumb for navigation on smartphones.
  
-[Side Bar Nav](https://github.com/adrian-cucuet/project2-budgetly/assets/images/sidebar-nav.png)
+![Side Bar Nav](https://github.com/adrian-cucuet/project2-budgetly/assets/images/sidebar-nav.png)
  
-[Mobile Nav Bar](https://github.com/adrian-cucuet/project2-budgetly/assets/images/mobile-nav.png)
+![Mobile Nav Bar](https://github.com/adrian-cucuet/project2-budgetly/assets/images/mobile-nav.png)
  
 ### Budget Widget
  
@@ -115,7 +115,7 @@ The mobile responsiveness testing has been done using iOS, and Android. The webs
 - The results for the Lighthouse are all above 90:
  [Lighthouse Score](https://github.com/adrian-cucuet/project2-budgetly/assets/images/lighthouse.png)
  - For the score at accessibility are things I couldn't change as they are paramount part of the code:
- [Lighthouse 1](https://github.com/adrian-cucuet/project2-budgetly/assets/images/accessibility1.png) [Lighthouse 2](https://github.com/adrian-cucuet/project2-budgetly/assets/images/accessibility2.png)
+ [Lighthouse 1](https://github.com/adrian-cucuet/project2-budgetly/blob/main/assets/images/accessibility1.png) [Lighthouse 2](https://github.com/adrian-cucuet/project2-budgetly/assets/images/accessibility2.png)
  
 ### Unfixed Bugs
 
