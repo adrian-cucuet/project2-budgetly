@@ -369,7 +369,7 @@ body.dark #list-dash {
     box-shadow: none;
 }
 
-#list-dash h3 {
+#list-dash h1 {
     color: var(--text-color);
     text-transform: uppercase;
     margin: 3vh 0;
@@ -939,7 +939,7 @@ body.dark #todo-section .todo-header {
         width: 90%;
     }
 
-    #list-dash h3 {
+    #list-dash h1 {
         font-size: 1.5rem;
     }
 
