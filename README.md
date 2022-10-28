@@ -36,15 +36,15 @@ Having the user in mind, I decided to create the website with a dark - light mod
  - The Expenses Enter Section allows the user to input the expenses name and amount. Everytime a new expense is entered, an entry is created in the Latest Expenses section.
  - The Latest Expenses section conatains all the expenses submitted by the user and each item has two buttons: Edit and Delete. The Edit button sends the name and amount back to the Expenses Enter Section to be edited and re-submited. The Delete button will remove that specific item from the list. Both actions will recalculate the total expenses and balance amounts.
  
-[Budget Section Desktop](https://github.com/adrian-cucuet/project2-budgetly/blob/main/assets/images/budget-desktop.png)
-[Budget Section Mobile](https://github.com/adrian-cucuet/project2-budgetly/blob/main/assets/images/budget-mobile.png)
+![Budget Section Desktop](https://github.com/adrian-cucuet/project2-budgetly/blob/main/assets/images/budget-desktop.png)
+![Budget Section Mobile](https://github.com/adrian-cucuet/project2-budgetly/blob/main/assets/images/budget-mobile.png)
  
 ### To Do Widget
  
  - The To Do section allows the user to create a list of tasks to follow throughout the day, week or month. Every task has two buttons: one for Done and one for Delete. The Done button checkes the task and it gets cut from the list to allow the user to focus only on the remaining tasks. The Delete button will delete the task from the list.
  
-[ToDo Section Desktop](https://github.com/adrian-cucuet/project2-budgetly/blob/main/assets/images/todo-desktop.png)
-[Todo Section Mobile](https://github.com/adrian-cucuet/project2-budgetly/blob/main/assets/images/todo-mobile.png)
+![ToDo Section Desktop](https://github.com/adrian-cucuet/project2-budgetly/blob/main/assets/images/todo-desktop.png)
+![Todo Section Mobile](https://github.com/adrian-cucuet/project2-budgetly/blob/main/assets/images/todo-mobile.png)
  
 ### Info section
  
@@ -90,7 +90,7 @@ For the wireframes, I used [Figma](https://www.figma.com/). For the mobile I dec
 
 For the color scheme, I picked simple colors, using the 60-30-10 rule. The colors are consistent throughout the website, creating a relaxed environment for the user.
 
-[Color Scheme](https://github.com/adrian-cucuet/project2-budgetly/blob/main/assets/images/Colors.png)
+![Color Scheme](https://github.com/adrian-cucuet/project2-budgetly/blob/main/assets/images/Colors.png)
 
 ### Features Left to Implement
  
@@ -150,6 +150,6 @@ The live link can be found here - [Budgetly](https://adrian-cucuet.github.io/pro
  
 - Whenever I encounter difficulties, I went and checked for solutions on [W3Schools](https://www.w3schools.com/) and [Stackeflow](https://stackoverflow.com/)
 
-- The logo was created by [Kier De Dios](https://kierdedios.com/), as well as help for color scheme and UX.
+- The logo was created by [Kier De Dios](https://kierdedios.com/), he also help for color scheme and UX.
 
 [Back to top &uarr;](#table-of-contents)
