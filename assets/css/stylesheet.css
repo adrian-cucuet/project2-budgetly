@@ -833,6 +833,7 @@ body.dark #todo-section .todo-header {
     #dashboard-section,
     .sidebar.close~#dashboard-section {
         clear: both;
+        position: absolute;
         width: 100%;
         top: 0;
         left: 0;
